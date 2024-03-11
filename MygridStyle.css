@@ -1,0 +1,289 @@
+
+
+
+.aa{
+    display: grid;
+
+    height: 350vh;
+  
+    grid-template-columns: repeat(20, 1fr); /* 10 columns */
+  
+    grid-template-rows: repeat(10, 1fr)  repeat(10, 150px); /* 10 rows */
+  
+    gap: 10x; /* shorthand for both gaps */
+}
+
+
+.aa > div {    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    border-radius: 250px;
+    
+    
+    
+   
+
+  }
+  
+#a1{
+
+    grid-column: 1/3;
+    grid-row: 6/7;
+    background: linear-gradient(to top,rgb(255, 2, 2), rgb(255, 255, 255));
+
+    
+  
+}
+
+#a2{
+
+    grid-column: 3/5;
+    grid-row: 6/7;
+    background: linear-gradient(to top,rgb(255, 2, 2), rgb(255, 255, 255));
+   
+}
+
+#a3{
+    grid-column: 5/7;
+    grid-row: 6/7;
+    background: linear-gradient(to top,rgb(255, 2, 2), rgb(255, 255, 255));
+
+    }
+
+#a4{
+
+    grid-column: 7/9;
+    grid-row: 6/7;
+    background: linear-gradient(to top,rgb(255, 2, 2), rgb(255, 255, 255));
+
+    }
+
+#a5{
+
+    grid-column: 9/11;
+    grid-row: 6/7;
+    background: linear-gradient(to top,rgb(255, 2, 2), rgb(255, 255, 255));
+
+    }
+#a6{
+
+    grid-column: 11/13;
+    grid-row: 6/7;
+
+    background: linear-gradient(to top,rgb(255, 2, 2), rgb(255, 255, 255));
+
+    
+    
+}
+#a7{
+
+    grid-column: 13/15;
+    grid-row: 6/7;
+
+
+    background: linear-gradient(to top,rgb(255, 2, 2), rgb(255, 255, 255));
+ 
+}
+#a8{
+
+    grid-column: 15/17;
+    grid-row: 6/7;
+
+    background: linear-gradient(to top,rgb(255, 2, 2), rgb(255, 255, 255));
+ 
+}
+#a9{
+
+    grid-column: 17/19;
+    grid-row: 6/7;
+
+    background: linear-gradient(to top,rgb(255, 2, 2), rgb(255, 255, 255));
+    
+
+}
+#a14{
+    grid-column: 19/21;
+    grid-row: 6/7;
+    background: linear-gradient(to top,rgb(255, 2, 2), rgb(255, 255, 255));
+    
+
+}
+#Video{
+    border: solid 20px white;
+    border-radius: 30px;
+    width: 100%;
+    height: 49% ;
+    grid-column: 1/12;
+    grid-row: 1/9
+    
+
+    
+    
+
+}
+#giphy{
+   
+    border: solid 2px white;
+    width: 95%;
+    height: 97% ;
+    grid-column: 13/21;
+    grid-row: 1/6
+
+
+}
+
+#body{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeHFowKtugR_wLfWpuqwn7H-izdZRieU4rjw&usqp=CAU);
+    
+    
+}
+
+
+    #text1{
+        background: linear-gradient(to top,rgb(9, 126, 60), rgb(255, 40, 40));
+   
+        background-clip: text;
+        color: transparent;
+        
+       
+    
+    }
+    #text2{
+        background: linear-gradient(to top,rgb(10, 126, 60), rgb(255, 40, 40));
+       background-clip: text;
+       color: transparent;
+    
+    
+    
+    }
+    #text3{
+        background: linear-gradient(to top,rgb(11, 126, 60), rgb(255, 40, 40));
+     
+        background-clip: text;
+        color: transparent;
+        
+      
+    }
+    #text4{
+        background: linear-gradient(to top,rgb(12, 126, 60), rgb(255, 40, 40));
+        background-clip: text;
+        color: transparent;
+        
+        
+    }
+    #text5{
+        
+        background: linear-gradient(to top,rgb(13, 126, 60), rgb(255, 40, 40));
+        color: transparent;
+        background-clip: text;
+      
+        
+    }
+    #text6{
+        
+        background: linear-gradient(to top,rgb(14, 126, 60), rgb(255, 40, 40));
+        background-clip: text;
+        color: transparent;
+        
+        
+    }
+    #text7{
+        background: linear-gradient(to top,rgb(15, 126, 60), rgb(255, 40, 40));
+        background-clip: text;
+        color: transparent;
+       
+        
+    }
+    #text8{
+        background: linear-gradient(to top,rgb(16, 126, 60), rgb(255, 40, 40));
+        background-clip: text;
+        color: transparent;
+       
+        
+    }
+    #text9{
+        background: linear-gradient(to top,rgb(17, 126, 60), rgb(255, 40, 40));
+        background-clip: text;
+        color: transparent;
+
+        
+        
+    }
+    #text14{
+        background: linear-gradient(to top,rgb(18, 126, 60), rgb(255, 40, 40));
+        background-clip: text;
+        color: transparent;
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+            #a10{
+    
+                background-image: url(pic1.jpg);
+                background-image: transparent;
+                border: solid 10px black;
+                grid-area: 14/12/18/20;
+                        }
+                        #text10{
+                            background: linear-gradient(to top,rgb(255, 255, 255), rgb(255, 40, 40));
+                            background-clip: text;
+                            color: transparent;
+                        }
+
+            #a11{
+                background-image: url(https://as1.ftcdn.net/v2/jpg/01/75/60/76/1000_F_175607695_lfkYXe7gK71QAYw8OxyIDRFm8Hdjn8sO.jpg);
+                background-image: transparent;
+                border: solid 10px black;
+                grid-area: 14/2/18/10
+                        }
+                        #text11{
+                            background: linear-gradient(to top,rgb(76, 0, 255), rgb(0, 0, 0));
+                            background-clip: text;
+                            color: transparent;
+                        }
+
+
+
+            #a12{
+                background-image: url(pic3.jpg);
+                background-image: transparent;
+                border: solid 10px black;
+                grid-area: 8/2/13/10
+                        }
+                        #text12{
+                            background: linear-gradient(to top,rgb(115, 15, 15), rgb(47, 3, 3));
+                            background-clip: text;
+                            color: transparent;
+                        }
+            #a13{
+                background-image: url(pic2.jpg);
+                background-image: transparent;
+                border: solid 10px black;
+                grid-area: 8/12/13/20
+                            }
+                            #text13{
+                                background: linear-gradient(to top,rgb(28, 0, 120), rgb(95, 119, 255));
+                                background-clip: text;
+                                color: transparent;
+                            }
+            
+            
+
+        
+    
+    
+
+
